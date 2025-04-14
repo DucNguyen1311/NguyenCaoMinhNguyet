@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="reminder-message">
               <p><em>Lúc nào ẻm thấy không ổn mà không thể nói ra, hãy luôn nhớ là đn yêu em nhiều á và luôn bên cạnh em khi em cần hjhj</em></p>
           </div>
-          <button id="restart-btn">NẠP NĂNG LƯỢNG NÈEEEEEE</button>
+          <button id="restart-btn">NẠP NĂNG LƯỢNG NÈEEEEEE!</button>
       `;
       
       // Add the new card to the page in the same position as the first
