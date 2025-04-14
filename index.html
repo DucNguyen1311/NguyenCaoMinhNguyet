@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DUNG CHAN AN NUA</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time to Recharge!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Add emoji favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔋</text></svg>">
 </head>
 <body>
-  <div class="container">
-    <h1>DUNG CHAN AN NUA!!!!!!!!!!!</h1>
-    <button id="moveButton" class="btn">AN DI !!!</button>
-  </div>
-
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Time to Recharge</h1>
+        
+        <div class="battery-container">
+            <div class="battery-cap"></div>
+            <div class="battery">
+                <div class="battery-level"></div>
+            </div>
+        </div>
+        
+        <div class="energy-level">0%</div>
+        
+        <div class="encouragement-box" id="encouragement">
+            <em>Press the button to recharge your battery!</em>
+        </div>
+        
+        <button id="recharge-btn">Let's Recharge! 💝</button>
+        
+        <div class="hearts-container" id="hearts-container"></div>
+    </div>
+    
+    <footer>
+        <p>made with all my 💖 for you</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
