@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Encouraging messages that will appear randomly - expanded collection
   const encouragements = [
-      "You're doing amazing! Keep going! 💪",
-      "Your smile lights up my day! 😊",
-      "Taking breaks is part of being productive! 🌸",
-      "You bring joy to everyone around you! ✨",
-      "You've got this! I know you can do it! 🌟",
-      "Every day seeing you texting me is a bright day! 🌈",
-      "You deserve all the happiness in the world! 💕",
-      "Your energy is contagious! ⚡",
-      "Never forget how incredible you are! 💫",
-      "You make the world a better place just by being you! 💖",
+      "Ẻm giỏi lắm ý, cố gắng thật nhiều nhaaa",
+      "Minh Nguyệt cười xinh lắm luôn ý, mong là em luôn giữ được nụ cười đó trên môi <3",
+      "Nghỉ ngơi cũng là một phần quan trọng của làm việc đó nha!!!",
+      "Ở bên em ĐN vui lắm luôn ý, yêu em nhiều Minh Nguyệt a hjhj",
+      "Em sẽ làm được thoi, tại ẻm giỏi lắm luôn ý, cố gắng nhaaaa!!!",
+      "Mỗi sáng thức dậy được nhìn thấy tin nhắn của em là ĐN hạnh phúc lắm luôn á!!!",
+      "Ai cũng xứng đáng được hạnh phúc, nhất là em, người ĐN yêu rất nhìuuuuu",
+      "Hãy luôn vui vẻ hạnh phúc nhaaa Minh Nguyệt !",
+      "Ẻm siêu tuyệt vời luôn, vừa xinh đẹp vừa giỏi giang á, đừng bao giờ quên điều đó nghen",
+      "Em làm cuộc đời ĐN ngọt ngào thêm nhiều á, yêu em lắm Minh Nguyệt ạ",
   ];
   
   // Function to update the battery level
@@ -44,12 +44,12 @@ document.addEventListener('DOMContentLoaded', function() {
       
       // Display a special message when fully charged and transform UI
       if (chargeLevel >= 100) {
-          encouragementBox.innerHTML = "<em>You're fully charged! 🌟</em>";
+          encouragementBox.innerHTML = "<em>Nạp năng lượng xong òiiiii</em>";
           createConfetti();
           createFireworks();
           
           // Change the recharge button to a "Done!" button
-          rechargeBtn.textContent = "Done!";
+          rechargeBtn.textContent = "Hoàn Thành!";
           rechargeBtn.classList.add("done-button");
           
           // Change the button functionality
