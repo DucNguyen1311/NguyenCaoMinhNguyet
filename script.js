@@ -202,14 +202,14 @@ document.addEventListener('DOMContentLoaded', function() {
       nextCard.classList.add('container', 'next-card');
       
       nextCard.innerHTML = `
-          <h1>Remember to Take Breaks!</h1>
+          <h1>Lâu lâu downmood thì vào cái web vô tri này nhaa</h1>
           <div class="gif-container">
               <img src="images/recharge.gif" alt="Recharging animation" class="recharge-gif">
           </div>
           <div class="reminder-message">
-              <p><em>Taking time to recharge is very important! Come back whenever you need a boost!</em></p>
+              <p><em>Lúc nào ẻm thấy không ổn mà không thể nói ra, hãy luôn nhớ là đn yêu em nhiều á và luôn bên cạnh em khi em cần hjhj</em></p>
           </div>
-          <button id="restart-btn">Recharge ⚡</button>
+          <button id="restart-btn">NẠP NĂNG LƯỢNG NÈEEEEEE</button>
       `;
       
       // Add the new card to the page in the same position as the first
