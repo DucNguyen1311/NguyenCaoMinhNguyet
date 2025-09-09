@@ -7,11 +7,11 @@ html *
 }
 
 .nav-item {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .accordion-button {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -20,7 +20,7 @@ html *
 }
 
 .accordion-body {
-    font-size: 35px;
+    font-size: 18px;
 }
 
 body {
