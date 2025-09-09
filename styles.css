@@ -1,0 +1,129 @@
+
+
+html *
+{
+   font-family:  'Nunito', sans-serif;
+   font-weight: 600
+}
+
+.nav-item {
+    font-size: 50px;
+}
+
+.accordion-button {
+    font-size: 40px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #5991bc;
+}
+
+.accordion-body {
+    font-size: 35px;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+  background: #fff;
+  margin: 0;
+  padding: 0 0 30px 0;
+}
+
+.h1 {
+    font-size: 100px;
+}
+.main-header {
+  text-align: center;
+  color: #5991bc;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin: 40px auto 10px auto;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 28px;
+  color: #000;
+}
+
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  background: #eee;
+  border-radius: 6px;
+  margin: 0 8px 20px 8px;
+  padding: 10px 0;
+}
+.tab {
+  background: #2086e8;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px 4px 0 0;
+  padding: 10px 18px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background .2s;
+}
+.tab:not(.active) {
+  background: #fff;
+  color: #2086e8;
+  border: 1px solid #2086e8;
+}
+.tab.active {
+  background: #2086e8;
+  color: #fff;
+  border: none;
+}
+
+.collapsible-section {
+  margin: 30px auto 0 auto;
+  max-width: 90vw;
+}
+.collapsible {
+  width: 100%;
+  background: #0071eb;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 18px;
+  text-align: left;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 0;
+}
+.collapsible:after {
+  content: '';
+}
+
+.content {
+  padding: 24px 18px 18px 18px;
+  background: #fff;
+  border: 1px solid #0071eb;
+  border-radius: 0 0 6px 6px;
+  display: none;
+  font-size: 1.15rem;
+}
+.content.show {
+  display: block;
+}
+.copy-btn {
+  margin-top: 12px;
+  padding: 8px 18px;
+  background: #eeeeee;
+  border: 1px solid #0071eb;
+  border-radius: 4px;
+  color: #0071eb;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.copy-btn:hover {
+  background: #d0e7ff;
+}
